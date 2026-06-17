@@ -1,19 +1,6 @@
-# calculator_calculations.py
 
-# -----------------------------------------------------------------------------------
-# Import Statements
-# -----------------------------------------------------------------------------------
-
-# Import ABC (Abstract Base Class) and abstractmethod from Python's abc module.
-# Abstract Base Classes (ABCs) allow us to define a contract for our subclasses, specifying 
-# methods that they must implement. This helps in establishing a standard interface for 
-# similar objects without enforcing specific details on how they should work.
 from abc import ABC, abstractmethod
 
-# Import the Operation class from the app.operation module. 
-# The Operation class is where our basic mathematical functions (e.g., addition, subtraction) are defined.
-# Rather than implementing arithmetic logic within each calculation class, we encapsulate it in a 
-# separate class to promote modularity. This makes it easier to modify or extend these functions independently.
 from app.operation import Operation
 
 # -----------------------------------------------------------------------------------
